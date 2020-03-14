@@ -16,8 +16,17 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload test ajay.
               </p>
       
+      function tick() {
+  const element = (
+    <div>
       <h1>Hello, world!</h1>
       <h2>It is {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  ReactDOM.render(element, document.getElementById('root'));
+}
+
+setInterval(tick, 1000);
           <a
             className="App-link"
             href="https://reactjs.org"
