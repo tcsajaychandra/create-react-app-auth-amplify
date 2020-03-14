@@ -14,8 +14,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload test ajay.
-     
-          </p>
+              </p>
+      
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
           <a
             className="App-link"
             href="https://reactjs.org"
