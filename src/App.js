@@ -17,14 +17,13 @@ class App extends Component {
               </p>
       
      
-  const element = (
+  function tick() {
     <div>
       <h1>Hello, world!</h1>
       <h2>It is {new Date().toLocaleTimeString()}.</h2>
     </div>
-  );
-  ReactDOM.render(element, document.getElementById('root'));
-setInterval(tick, 1000);
+    }
+  setInterval(tick, 1000);
           <a
             className="App-link"
             href="https://reactjs.org"
